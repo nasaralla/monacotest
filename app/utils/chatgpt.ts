@@ -1,20 +1,3 @@
-// import OpenAI from "openai";
-// const client = new OpenAI();
-// //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
-
-
-// export const callGPT = async(prompt: string) => {
-//     const response = await client.responses.create({
-//         model: "gpt-4.1",
-//         input: "Write a one-sentence bedtime story about a unicorn.",
-//         stream: true
-//     });
-    
-//     console.log(response);
-//     return response;
-// }
-
-
 import OpenAI from 'openai';
 
 const openai = new OpenAI({
